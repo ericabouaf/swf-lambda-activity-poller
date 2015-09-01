@@ -1,0 +1,29 @@
+{
+  "name": "swf-lambda-activity-poller",
+  "version": "1.0.0",
+  "description": "A SWF Activity Poller, which starts a lambda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neyric/swf-lambda-activity-poller.git"
+  },
+  "keywords": [
+    "aws",
+    "swf",
+    "lambda"
+  ],
+  "bugs": {
+    "url": "https://github.com/neyric/swf-lambda-activity-poller/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.45"
+  }
+}
